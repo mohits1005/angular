@@ -1,3 +1,6 @@
 <p>
-  mainblock works!
+  Inside mainblock
 </p>
+<button class="btn btn-success" (click)="onButtonClick()">Click me!</button>
+<!--<p [innerText]="clickCount+' clicks'"></p>-->
+<p *ngFor="let row of clicks">{{ row.click }}</p>
