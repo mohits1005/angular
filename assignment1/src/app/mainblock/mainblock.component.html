@@ -3,4 +3,9 @@
 </p>
 <button class="btn btn-success" (click)="onButtonClick()">Click me!</button>
 <!--<p [innerText]="clickCount+' clicks'"></p>-->
-<p *ngFor="let row of clicks">{{ row.click }}</p>
+<p
+  *ngFor="let row of clicks"
+  [ngStyle]="{backgroundColor: getColor(row.click)}"
+  [ngClass]="{'white-text': row.click>=5}">
+  {{ row.click }}
+</p>

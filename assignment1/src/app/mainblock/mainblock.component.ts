@@ -20,4 +20,7 @@ export class MainblockComponent implements OnInit {
     this.clickDict = {'click': this.clickCount};
     this.clicks.push(this.clickDict);
   }
+  getColor(clickCount) {
+    return clickCount >= 5 ? 'blue' : 'transparent';
+  }
 }
