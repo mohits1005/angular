@@ -9,6 +9,7 @@ export class MainblockComponent implements OnInit {
   clickCount = 0;
   clicks = [];
   clickDict = {};
+  secretFlag = false;
 
   constructor() { }
 
@@ -19,6 +20,7 @@ export class MainblockComponent implements OnInit {
     this.clickCount += 1;
     this.clickDict = {'click': this.clickCount};
     this.clicks.push(this.clickDict);
+    this.secretFlag = this.clickCount >= 5 ? true : false;
   }
   getColor(clickCount) {
     return clickCount >= 5 ? 'blue' : 'transparent';

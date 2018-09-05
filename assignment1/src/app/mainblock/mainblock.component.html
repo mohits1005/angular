@@ -3,6 +3,7 @@
 </p>
 <button class="btn btn-success" (click)="onButtonClick()">Click me!</button>
 <!--<p [innerText]="clickCount+' clicks'"></p>-->
+<p *ngIf="secretFlag">Secret password is Tuna</p>
 <p
   *ngFor="let row of clicks"
   [ngStyle]="{backgroundColor: getColor(row.click)}"
