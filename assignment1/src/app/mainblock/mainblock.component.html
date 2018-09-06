@@ -4,9 +4,15 @@
 <button class="btn btn-success" (click)="onButtonClick()">Click me!</button>
 <!--<p [innerText]="clickCount+' clicks'"></p>-->
 <p *ngIf="secretFlag">Secret password is Tuna</p>
-<p
-  *ngFor="let row of clicks"
-  [ngStyle]="{backgroundColor: getColor(row.click)}"
-  [ngClass]="{'white-text': row.click>=5}">
-  {{ row.click }}
-</p>
+<!--<p-->
+  <!--*ngFor="let row of clicks"-->
+  <!--[ngStyle]="{backgroundColor: getColor(row.click)}"-->
+  <!--[ngClass]="{'white-text': row.click>=5}">-->
+  <!--{{ row.click }}-->
+<!--</p>-->
+<div
+  *ngFor="let logItem of logs; let i = index;"
+  [ngStyle]="{backgroundColor: getColor(i)}"
+  [ngClass]="{'white-text': i>=4}">
+  {{ logItem }}
+</div>
