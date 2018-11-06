@@ -13,4 +13,6 @@
 13. main.ts is the first code that gets executed.
 14. bootstrap is loaded in main.ts, app.module.ts assigns bootstrap to appComponent
 15. components are like div class container
-16. create component, register it in module.
+16. create component, register it in module, using custom component
+17. create component using cli, ng g c servers
+18. 
