@@ -1,0 +1,11 @@
+1. root > src index.html
+2. root > src > app app.component.ts
+3. root > src > app app.component.html
+4. Bind [(ngModel)] to name (2 way binding)
+5. Print objects {{}}
+6. Adding FormsModule in app.modules.ts
+7. component? 2 way data binding? directives(like ngModel)?
+8. TypeScript -> super script of Javascript(ex. types, classes)
+9. Install bootstrap with npm
+10. Add bootstrap reference in angular.json > styles > "../node_modules/bootstrap/dist/css/bootstrap.min.css"
+11. 
