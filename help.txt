@@ -21,4 +21,5 @@
 21. Property Binding ([property]="data")
 22. Event Binding ([event]="expression")
 23. Combination of both - Two way Data Binding ([(ngModel)]="data")
-24. 
+24. Directives - instructions in dom (set like attributes) > built in/custom
+25. ngIf directive
