@@ -15,4 +15,10 @@
 15. components are like div class container
 16. create component, register it in module, using custom component
 17. create component using cli, ng g c servers
-18. 
+18. component > template, style, selector
+19. Data binding (Communcication between TS(Business Logic) and HTML(Template))
+20. String Interpolation ({{ data }})
+21. Property Binding ([property]="data")
+22. Event Binding ([event]="expression")
+23. Combination of both - Two way Data Binding ([(ngModel)]="data")
+24. 
