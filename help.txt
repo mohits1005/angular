@@ -19,7 +19,9 @@
 19. Data binding (Communcication between TS(Business Logic) and HTML(Template))
 20. String Interpolation ({{ data }})
 21. Property Binding ([property]="data")
-22. Event Binding ([event]="expression")
+22. Event Binding ((event)="expression")
 23. Combination of both - Two way Data Binding ([(ngModel)]="data")
 24. Directives - instructions in dom (set like attributes) > built in/custom
-25. ngIf directive
+25. *ngIf directive
+26. ng-template #noServer - create a marker for the template
+27. [ngStyle]
