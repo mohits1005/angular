@@ -7,7 +7,7 @@
 7. component? 2 way data binding? directives(like ngModel)?
 8. TypeScript -> super script of Javascript(ex. types, classes)
 9. Install bootstrap with npm
-10. Add bootstrap reference in angular.json > styles > "../node_modules/bootstrap/dist/css/bootstrap.min.css"
+10. Add bootstrap reference in angular.json > styles > "node_modules/bootstrap/dist/css/bootstrap.min.css"
 11. index.html is served by the server.
 12. app.component.ts > selector > app-root
 13. main.ts is the first code that gets executed.
