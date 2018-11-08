@@ -26,4 +26,5 @@
 26. ng-template #noServer - create a marker for the template
 27. [ngStyle] (It works like property binding)
 28. [ngClass] (It works like property binding) class will be added based on a condition 
-29. 
+29. *ngFor="let server of servers"
+30. 
