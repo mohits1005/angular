@@ -32,4 +32,7 @@
 32. Developer tools > webpack > open .ts file > debug
 33. Third party debug tool - augury (Add chrome extension)
 34. Put ngModel on input(testInput), to access in component.ts using this.testInput
-35. 
+35. Property & Event Binding can be done on components as well
+36. Pass data from component(up) to other component(down) (appcomponent to server): Add @Input() (import { Input } from '@angular/core';) in front of variable to make it accessible to other component
+37. @Input('srvElement') to set alias to property
+38. @Output() Pass data from component(down) to other component(up) (cockpit to appcomponent): create custom event listener in appComponent, in cockpit create eventEmitter and emit an object.Here we will emit our own events.
