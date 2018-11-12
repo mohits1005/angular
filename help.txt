@@ -31,4 +31,5 @@
 31. Developer tools > main.bundle.js > click on line > open .ts file > debug
 32. Developer tools > webpack > open .ts file > debug
 33. Third party debug tool - augury (Add chrome extension)
-34. 
+34. Put ngModel on input(testInput), to access in component.ts using this.testInput
+35. 
