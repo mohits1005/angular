@@ -28,4 +28,7 @@
 28. [ngClass] (It works like property binding) class will be added based on a condition 
 29. *ngFor="let server of servers"
 30. Use index in ngFor, let i = index
-31. 
+31. Developer tools > main.bundle.js > click on line > open .ts file > debug
+32. Developer tools > webpack > open .ts file > debug
+33. Third party debug tool - augury (Add chrome extension)
+34. 
