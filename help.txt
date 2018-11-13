@@ -40,4 +40,5 @@
 a) Add @input() to make your property(variable) bindable from outside
 b) @output that allows parent component to listen to your own events which we create using emitter
 40. To use application wide css, set encapsulation to none
-41. 
+41. Can add local reference to any html tag using #name
+42. Use reference only in template not in ts code(Important)
