@@ -42,3 +42,5 @@ b) @output that allows parent component to listen to your own events which we cr
 40. To use application wide css, set encapsulation to none
 41. Can add local reference to any html tag using #name
 42. Use reference only in template not in ts code(Important)
+43. Pass name of local reference in @ViewChild('name')
+44. 
