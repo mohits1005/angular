@@ -53,3 +53,4 @@ ngAfterContentChecked: called when projected content is checked
 ngAfterViewInit: components view has been initialized
 ngAfterViewChecked: view has been checked
 ngOnDestroy: before object destroyed
+46. AfterViewInit, we can access template elements
