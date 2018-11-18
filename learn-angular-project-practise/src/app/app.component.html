@@ -8,13 +8,13 @@
 </head>
 
 <body>
-    <app-header></app-header>
+    <app-header (recipesClicked)="onRecipesClicked()" (shoppingListClicked)="onShoppingListClicked()"></app-header>
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h2>I'm in App Component</h2>
-                <app-recipe-book></app-recipe-book>
-                <app-shopping-list></app-shopping-list>
+                <!-- <h2>I'm in App Component</h2> -->
+                <app-recipe-book *ngIf="recipesClicked;"></app-recipe-book>
+                <app-shopping-list *ngIf="shoppingListClicked;"></app-shopping-list>
             </div>
         </div>
     </div>

@@ -54,3 +54,5 @@ ngAfterViewInit: components view has been initialized
 ngAfterViewChecked: view has been checked
 ngOnDestroy: before object destroyed
 46. AfterViewInit, we can access template elements
+47. Access ng-content with @ContentChild
+48.
