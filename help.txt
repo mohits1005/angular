@@ -43,6 +43,8 @@ b) @output that allows parent component to listen to your own events which we cr
 41. Can add local reference to any html tag using #name
 42. Use reference only in template not in ts code(Important)
 43. Pass name of local reference in @ViewChild('name')
+@ViewChild('nameInput') nameInputRef: ElementRef;
+this.nameInputRef.nativeElement.value
 44. ng-content hook: reusing one component that has say different title
 45. Component Lifecycle:
 ngOnChanges: bound input property changes - i.e. @Input()
