@@ -1,0 +1,23 @@
+<div class="row">
+    <div class="col-xs-12">
+        <form>
+            <div class="row">
+                <div class="col-xs-12 form-group">
+                    <h2>Account name</h2>
+                    <input type="text" id="name" class="form-control" #nameInput>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 form-group">
+                    <select id="status" class="form-control" #statusInput>
+                        <option value="active">active</option>
+                        <option value="inactive">inactive</option>
+                        <option value="hidden">hidden</option>
+                    </select>
+                    <br>
+                    <button class="btn btn-info" (click)="addAccount()">Add Account</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
