@@ -60,3 +60,7 @@ ngOnDestroy: before object destroyed
 48. Services - Dependency Injector
 In @Component, add providers: [LoggingService]
 Inside Component class, constructor(private loggingService: LoggingService) { }
+Service heirarchy follows parent to child not other way
+Services can be injected into Services, @Injectable() needs to be added to service class using another service
+
+
