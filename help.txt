@@ -70,3 +70,5 @@ To create our own directive, add
 })
 In constructor pass element reference where this directive sits on
 add directive in app.module > declarations
+no brackets are required while setting it up in .html
+ng g d better-highlight
