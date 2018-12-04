@@ -63,4 +63,10 @@ Inside Component class, constructor(private loggingService: LoggingService) { }
 Service heirarchy follows parent to child not other way
 Services can be injected into Services, @Injectable() needs to be added to service class using another service
 Communication between components with services: need to subscribe to it to get informed about any changes.
-
+49. Directives - attribute(change properties of element) and structural(change entire dom)
+To create our own directive, add
+@Directive({
+    selector: '[appBasicHighlight]'
+})
+In constructor pass element reference where this directive sits on
+add directive in app.module > declarations
