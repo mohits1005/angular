@@ -72,5 +72,9 @@ In constructor pass element reference where this directive sits on
 add directive in app.module > declarations
 no brackets are required while setting it up in .html
 ng g d better-highlight
+@HostBinding('class.open') isOpen = false;
+@HostBinding('style.backgroundColor') backgroundColor: string = this.defaultColor;
+@HostListener('mouseenter') mouseover(eventData: Event)
+@HostListener('click') onClick() 
 50. [ngSwitch]="value" <p *ngSwitchCase="5">Value is 5</p><p *ngSwitchDefault>Value is default</p>
 51.
