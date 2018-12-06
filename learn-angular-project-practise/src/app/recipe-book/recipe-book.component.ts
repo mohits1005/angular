@@ -13,11 +13,11 @@ export class RecipeBookComponent implements OnInit {
   constructor(private recipeService: RecipeService) { }
 
   ngOnInit() {
-    this.recipeService.loadRecipe.subscribe(
-      (recipeElement) => {
-        this.recipe = recipeElement.recipe;
-      }
-    );
+    // this.recipeService.loadRecipe.subscribe(
+    //   (recipeElement) => {
+    //     this.recipe = recipeElement.recipe;
+    //   }
+    // );
   }
 
   recipeLoad(recipeElement){

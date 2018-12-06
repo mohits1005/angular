@@ -2,7 +2,7 @@ import { EventEmitter} from '@angular/core';
 import { Recipe } from './recipe.model';
 import { Ingredient } from '../common/ingredient.model';
 export class RecipeService{
-    loadRecipe = new EventEmitter<{ recipe: Recipe }>();
+    // loadRecipe = new EventEmitter<{ recipe: Recipe }>();
 
     private recipes: Recipe[] = [
         new Recipe('Spaghetti', 'Mouth watering Sphagetti!', 'https://gdsit.cdn-immedia.net/2017/01/CARNE-625x350.jpg',[new Ingredient('meat',1), new Ingredient('French Fries',20)]),
