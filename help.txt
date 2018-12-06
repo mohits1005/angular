@@ -78,4 +78,4 @@ ng g d better-highlight
 @HostListener('click') onClick() 
 50. [ngSwitch]="value" <p *ngSwitchCase="5">Value is 5</p><p *ngSwitchDefault>Value is default</p>
 51.Observables
- 
+use subject in place of event emitter and next in place of emit for cross communication between components
