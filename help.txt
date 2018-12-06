@@ -77,4 +77,5 @@ ng g d better-highlight
 @HostListener('mouseenter') mouseover(eventData: Event)
 @HostListener('click') onClick() 
 50. [ngSwitch]="value" <p *ngSwitchCase="5">Value is 5</p><p *ngSwitchDefault>Value is default</p>
-51.
+51.Observables
+ 
