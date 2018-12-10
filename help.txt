@@ -81,3 +81,5 @@ ng g d better-highlight
 use subject in place of event emitter and next in place of emit for cross communication between components
 it can be imported from rxjs
 Map operator from rxjs lets you modify the data using along with interval
+52. Adding button type as button will make form not to reload
+53. 
