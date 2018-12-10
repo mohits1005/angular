@@ -82,4 +82,5 @@ use subject in place of event emitter and next in place of emit for cross commun
 it can be imported from rxjs
 Map operator from rxjs lets you modify the data using along with interval
 52. Adding button type as button will make form not to reload
-53. 
+53. To validate input Validators.required
+To use regex in validation Validators.pattern(/^[1-9]+[0-9]*$/)
