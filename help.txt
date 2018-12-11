@@ -85,3 +85,7 @@ Map operator from rxjs lets you modify the data using along with interval
 53. To validate input Validators.required
 To use regex in validation Validators.pattern(/^[1-9]+[0-9]*$/)
 54. Forms
+import {FormsModule} from '@angular/forms';
+and add FormsModule in imports of app.module.ts
+add event to ngSubmit directive to listen to form submit
+add ngForm directive to form reference, #f="ngForm"
