@@ -89,3 +89,4 @@ import {FormsModule} from '@angular/forms';
 and add FormsModule in imports of app.module.ts
 add event to ngSubmit directive to listen to form submit
 add ngForm directive to form reference, #f="ngForm"
+can use @ViewChild('f') signupForm: NgForm;
