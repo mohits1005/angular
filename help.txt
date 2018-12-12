@@ -104,4 +104,5 @@ Use (ngSubmit) to bind submit property
 Add Validators.required to FormControl for validation
 Get access to form control using signupForm.get() method
 Use formGroupName to add formgroup
+To use form array, FormArray in ts and adding formArrayName and formControlName as index of element in html
 

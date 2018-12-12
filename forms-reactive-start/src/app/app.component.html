@@ -20,8 +20,17 @@
                 </div>
                 <div class="radio" *ngFor="let gender of genders">
                     <label>
-            <input type="radio" [value]="gender"  formControlName="gender">{{ gender }}
-          </label>
+                        <input type="radio" [value]="gender"  formControlName="gender">{{ gender }}
+                    </label>
+                </div>
+                <div formArrayName="hobbies">
+                    <h4>Your Hobbies</h4>
+                    <button lass="btn btn-default" type="button" (click)="onAddHobby()">
+                        Add hobby
+                    </button>
+                    <div class="form-group" *ngFor="let hobbyControl of signupForm.get('hobbies').controls; let i = index;">
+                        <input type="text" class="form-control" [formControlName]="i">
+                    </div>
                 </div>
                 <span *ngIf="!signupForm.valid && signupForm.touched">
                     Please enter a valid data!
