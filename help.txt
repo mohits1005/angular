@@ -84,7 +84,7 @@ Map operator from rxjs lets you modify the data using along with interval
 52. Adding button type as button will make form not to reload
 53. To validate input Validators.required
 To use regex in validation Validators.pattern(/^[1-9]+[0-9]*$/)
-54. Forms
+54. Forms - Template driven
 import {FormsModule} from '@angular/forms';
 and add FormsModule in imports of app.module.ts
 add event to ngSubmit directive to listen to form submit
@@ -96,4 +96,8 @@ One way data binding: [ngModel]="default_question"
 Two way data binding: [(ngModel)]="answer"
 Form input group and validate: ngModelGroup="userData" #userData="ngModelGroup"
 Use patchValue to dynamically set form field value
+55. Forms - Reactive Forms
 add ReactiveFormsModule to imports in module.ts
+To sync reactive form to html,form [formGroup]="signupForm"
+To connect input to control,formControlName="username"
+
