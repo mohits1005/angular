@@ -90,3 +90,9 @@ and add FormsModule in imports of app.module.ts
 add event to ngSubmit directive to listen to form submit
 add ngForm directive to form reference, #f="ngForm"
 can use @ViewChild('f') signupForm: NgForm;
+Validation - [disabled]="!f.valid"
+Add a reference to input field #email="ngModel" to check if email.valid
+One way data binding: [ngModel]="default_question"
+Two way data binding: [(ngModel)]="answer"
+Form input group and validate: ngModelGroup="userData" #userData="ngModelGroup"
+Use patchValue to dynamically set form field value
