@@ -96,8 +96,9 @@ One way data binding: [ngModel]="default_question"
 Two way data binding: [(ngModel)]="answer"
 Form input group and validate: ngModelGroup="userData" #userData="ngModelGroup"
 Use patchValue to dynamically set form field value
-55. Forms - Reactive Forms
+55. Forms - Reactive Forms Adv. Form Can directly map to model class
 add ReactiveFormsModule to imports in module.ts
 To sync reactive form to html,form [formGroup]="signupForm"
 To connect input to control,formControlName="username"
+Use (ngSubmit) to bind submit property
 

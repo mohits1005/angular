@@ -5,15 +5,18 @@ import {FormGroup, FormControl} from '@angular/forms';
   templateUrl: "./app.component.html",
   styleUrls: ["./app.component.css"]
 })
-export class AppComponent implements OnInit{
+export class AppComponent implements OnInit {
   title = "forms-reactive-start";
   genders = ["male", "female"];
   signupForm: FormGroup;
-  ngOnInit(){
+  ngOnInit() {
     this.signupForm = new FormGroup({
-      'username': new FormControl(null),
-      'email': new FormControl(null),
-      'gender': new FormControl('male')
+      username: new FormControl(null),
+      email: new FormControl(null),
+      gender: new FormControl("male")
     });
+  }
+  onSubmit(){
+    console.log(this.signupForm);
   }
 }
