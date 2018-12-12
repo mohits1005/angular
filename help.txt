@@ -101,4 +101,6 @@ add ReactiveFormsModule to imports in module.ts
 To sync reactive form to html,form [formGroup]="signupForm"
 To connect input to control,formControlName="username"
 Use (ngSubmit) to bind submit property
+Add Validators.required to FormControl for validation
+Get access to form control using signupForm.get() method
 
