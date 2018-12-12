@@ -96,3 +96,4 @@ One way data binding: [ngModel]="default_question"
 Two way data binding: [(ngModel)]="answer"
 Form input group and validate: ngModelGroup="userData" #userData="ngModelGroup"
 Use patchValue to dynamically set form field value
+add ReactiveFormsModule to imports in module.ts
