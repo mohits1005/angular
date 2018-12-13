@@ -105,4 +105,18 @@ Add Validators.required to FormControl for validation
 Get access to form control using signupForm.get() method
 Use formGroupName to add formgroup
 To use form array, FormArray in ts and adding formArrayName and formControlName as index of element in html
+56. Pipes
+{{name | uppercase}}
+{{started | date}}
+Parameterizing Pipes - {{started | date:'fullDate'}}
+Custom Pipe - Implement PipeTransform, transform(value:any) return something
+Add decorator @Pipe and add name to decorator to use in html
+Also add in declarations in app.module.ts
+second parameter to transfer can parameterize Pipe
+ng g p to create pipe
+Pipes can be used to filter lists
+57. HTTP
+We will inject Angular Http service into our service
+
+
 
