@@ -1,6 +1,7 @@
 import { Injectable } from "@angular/core";
 import { Headers, Http,Response } from "@angular/http";
 import 'rxjs/Rx';
+import { Observable } from "rxjs/Rx";
  @Injectable()
  export class ServerService{
     constructor(private http:Http){
@@ -11,7 +12,7 @@ import 'rxjs/Rx';
         return this.http.post("https://ng-http-995e3.firebaseio.com/data.json", servers, {'headers':headers});
     }
     getServers(){
-        return this.http.get("https://ng-http-995e3.firebaseio.com/data.json")
+        return this.http.get("https://ng-http-995e3.firebaseio.com/data")
         .map(
             (response: Response) => {
                 const data = response.json();
@@ -28,6 +29,11 @@ import 'rxjs/Rx';
                   //Do something
                 }
                 return resultArray;
+            }
+        )
+        .catch(
+            (error: Response) => {
+                return Observable.throw('Something went wrong');
             }
         );
     }
